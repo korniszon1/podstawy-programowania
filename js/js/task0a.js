@@ -17,14 +17,17 @@ console.log(result);
 
 console.log("--Zadanie 2--")
 
-const widthBox = "23px";
-const widthPanel = "3px";
+let widthBox = "23px";
+let widthPanel = "3px";
 let czymJest = "";
 
 
-//widthBox = parseInt(widthBox);
-czymJest = typeof(widthBox);
+widthBox = parseInt(widthBox);
+widthPanel = parseInt(widthPanel);
+wynik = widthPanel + widthBox;
+czymJest = widthBox+"+"+widthPanel+"="+wynik;
 console.log(czymJest);
+
 
 console.log("--Zadanie 3--")
 
