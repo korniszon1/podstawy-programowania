@@ -9,3 +9,7 @@ else
     wybor = "Sprobuj ponownie, wylosowana liczba to "+liczba;
     console.log(wybor);
 }
+
+
+const tablica[2,3,4];
+
