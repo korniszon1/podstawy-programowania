@@ -7,11 +7,11 @@ for(i=0;i<10; i++)
     numery[i] = Math.floor(Math.random() * (10 - 1 + 1) + 1);
     numery2[i] = true;
 }  
-for(i=0;i<10; i++)
-{
-    //console.log(numery[i]);
-    console.log(typeof(numery[i]));
-}
+// for(i=0;i<10; i++)
+// {
+//     //console.log(numery[i]);
+//     console.log(typeof(numery[i]));
+// }
 console.log("Wylosowane numery To");
 console.log("--------------------");
 for(i=0;i<10;i++)
@@ -23,8 +23,8 @@ for(i=0;i<10;i++)
     {
         if(numery[i]===numery[j] && j !== i)
         {
-            //console.log("powtarza sie");
-            //console.log(numery[j]);
+            console.log("powtarza sie");
+            console.log(numery[j]);
             
 
             if(numery2[i]==true)
@@ -34,10 +34,6 @@ for(i=0;i<10;i++)
                 //console.log(typeof(numery[j]));
                 //numery[i]= 0;
                 wynik2++;
-            }
-            else
-            {
-
             }
             numery2[i]=false;
             numery2[j]=false;
